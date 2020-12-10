@@ -32,12 +32,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="All Categories"
-            android:textStyle="bold"
-            android:padding="10dp"
             android:gravity="center"
+            android:padding="10dp"
+            android:text="All Categories"
             android:textColor="@color/black"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:textStyle="bold" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/all_categories_recycler_view"
